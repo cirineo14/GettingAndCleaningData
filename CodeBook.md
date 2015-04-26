@@ -19,10 +19,10 @@ The file can be read in R with the command read.table("TidyDataSet.txt").
 
 The data set has 180 observations of 81 variables. The data is ordered by subject ID and then by activity. Ex.: the first six lines contains the results by activity (six of them) of the first participant. Again, the README file from the unzipped file contains detailed information on the measurements based on mean and std.
 
- The variables are the following:
+ The 81 variables are the following:
 
 1. "Subject": An integer variable. The subject ID.
 2. "Activity": A factor variable. The activity performed while taking the measurement. The activities are "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING".
 3. "tBodyAcc-mean()-X": A numerical variable. The first of the 79 mean variables of the measurements based on mean and std.
-…	…
-81. "fBodyBodyGyroJerkMag-meanFreq()": A numerical variable. The last of the 79 mean variables.
+
+...
