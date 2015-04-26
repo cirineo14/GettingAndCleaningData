@@ -1,4 +1,4 @@
-## Description of the variables, the data, and the transformations performed
+### Description of the variables, the data, and the transformations performed
 
 The README.md file lists the steps to follow to run the script run_analysis.R
 
@@ -13,11 +13,13 @@ At this stage, the second column of the tidyDF corresponds to the activities exp
 The X data frame is created by taking the average of each variable for each activity and each subject from tidyDF. The X data frame is finally written into the "TidyDataSet.txt" file.
 
 
-## Description of the data frame in the TidyDataSet.txt file
+### Description of the data frame in the TidyDataSet.txt file
 
 The file can be read in R with the command read.table("TidyDataSet.txt").
 
-The data set has 180 observations of 81 variables. The data is ordered by subject ID and then by activity. Ex.: the fist six lines contains the results by activity (six of them) of the first participant. The variables are the following:
+The data set has 180 observations of 81 variables. The data is ordered by subject ID and then by activity. Ex.: the first six lines contains the results by activity (six of them) of the first participant. Again, the README file from the unzipped file contains detailed information on the measurements based on mean and std.
+
+ The variables are the following:
 
 1. "Subject": An integer variable. The subject ID.
 2. "Activity": A factor variable. The activity performed while taking the measurement. The activities are "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING".

@@ -1,11 +1,11 @@
-## What the run_analysis.R script does
+### What the run_analysis.R script does
 
 The script takes data collected from the accelerometers from the Samsung Galaxy S smartphone as an input ([link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)) and produces the file "TidyDataSet.txt" containing a tidy data set that can be used for analysis.
 
 See the CodeBook.md file for explanations on the variables, the data and the work performed to clean up the data.
 
 
-## Steps to follow to run the script run_analysis.R
+### Steps to follow to run the script run_analysis.R
 
 NOTE: a version of the dplyr package that includes "summarise_each" must be installed.
 
